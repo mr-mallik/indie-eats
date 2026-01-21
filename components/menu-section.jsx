@@ -77,6 +77,13 @@ export default function MenuSection({ data }) {
                         key={itemIndex}
                         className="flex justify-between items-start p-4 rounded-lg bg-zinc-800/50 hover:bg-zinc-800 transition-colors border border-zinc-700/50"
                       >
+                        {item.image && (
+                          <img
+                            src={item.image}
+                            alt={item.name}
+                            className="w-20 h-20 rounded-lg object-cover mr-4"
+                          />
+                        )}
                         <div className="flex-1">
                           <h4 className="text-lg font-semibold text-white mb-1">
                             {item.name}
