@@ -1,0 +1,457 @@
+{
+  "hero": {
+    "headline": "Bold Flavours. Late Night Cravings.",
+    "subheadline": "Premium street food delivered to your door",
+    "phone": "01484 621575",
+    "offerHighlight": "10% OFF when you order by phone",
+    "heroImage": "https://images.pexels.com/photos/1108117/pexels-photo-1108117.jpeg?auto=compress&cs=tinysrgb&w=1920",
+    "cta": "Call To Order Now"
+  },
+  "offers": [
+    {
+      "id": "phone-discount",
+      "title": "10% Off Direct Orders",
+      "description": "Skip the apps. Call us directly and save 10% on your entire order.",
+      "image": "https://images.unsplash.com/photo-1619683909021-fb6499a0d7ae?auto=format&fit=crop&w=800",
+      "expires": "Ongoing Offer"
+    },
+    {
+      "id": "late-night",
+      "title": "Open Late Every Night",
+      "description": "Serving until 11:45 PM most nights. Late night cravings sorted.",
+      "image": "https://images.pexels.com/photos/24182618/pexels-photo-24182618.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "expires": ""
+    }
+  ],
+  "menu": {
+    "categories": [
+      {
+        "name": "Burgers",
+        "description": "Served with chips",
+        "image": "https://images.pexels.com/photos/1108117/pexels-photo-1108117.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "items": [
+          {
+            "name": "Chicken Burger",
+            "price": 6.49,
+            "description": "Crispy chicken fillet with fresh lettuce, tomato, and signature sauce"
+          },
+          {
+            "name": "Beef Burger",
+            "price": 5.99,
+            "description": "Juicy beef patty with classic toppings"
+          },
+          {
+            "name": "Indie Special Burger",
+            "price": 7.99,
+            "description": "Our signature creation with premium toppings"
+          },
+          {
+            "name": "Cheese Burger",
+            "price": 6.49,
+            "description": "Classic beef burger with melted cheese"
+          }
+        ]
+      },
+      {
+        "name": "Wraps",
+        "description": "Fresh wraps packed with flavour",
+        "image": "",
+        "items": [
+          {
+            "name": "Chicken Wrap",
+            "price": 5.99,
+            "description": "Grilled chicken with fresh salad and sauce"
+          },
+          {
+            "name": "Beef Wrap",
+            "price": 6.49,
+            "description": "Seasoned beef with crisp vegetables"
+          },
+          {
+            "name": "Veggie Wrap",
+            "price": 5.49,
+            "description": "Fresh vegetables and creamy sauce"
+          }
+        ]
+      },
+      {
+        "name": "Pizza",
+        "description": "Stone-baked perfection",
+        "image": "https://images.pexels.com/photos/33592985/pexels-photo-33592985.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "items": [
+          {
+            "name": "Margherita Pizza",
+            "price": 7.49,
+            "size": "9\" / 12\" / 15\"",
+            "description": "Classic tomato and mozzarella"
+          },
+          {
+            "name": "Meat Feast Pizza",
+            "price": 9.49,
+            "size": "9\" / 12\" / 15\"",
+            "description": "Loaded with pepperoni, beef, and chicken"
+          },
+          {
+            "name": "Pepperoni Pizza",
+            "price": 8.49,
+            "size": "9\" / 12\" / 15\"",
+            "description": "Generous pepperoni topping"
+          },
+          {
+            "name": "BBQ Chicken Pizza",
+            "price": 8.99,
+            "size": "9\" / 12\" / 15\"",
+            "description": "Tender chicken with BBQ sauce"
+          },
+          {
+            "name": "Vegetarian Pizza",
+            "price": 7.99,
+            "size": "9\" / 12\" / 15\"",
+            "description": "Fresh vegetables on tomato base"
+          },
+          {
+            "name": "Hawaiian Pizza",
+            "price": 8.49,
+            "size": "9\" / 12\" / 15\"",
+            "description": "Ham and pineapple"
+          },
+          {
+            "name": "Four Cheese Pizza",
+            "price": 8.99,
+            "size": "9\" / 12\" / 15\"",
+            "description": "Mozzarella, cheddar, parmesan, blue cheese"
+          }
+        ]
+      },
+      {
+        "name": "Loaded Box",
+        "description": "Boxes packed with flavour",
+        "image": "",
+        "items": [
+          {
+            "name": "Chicken Loaded Box",
+            "price": 8.99,
+            "description": "Chicken strips, wings, fries, and dip"
+          },
+          {
+            "name": "Mix Loaded Box",
+            "price": 9.99,
+            "description": "Chicken, wings, nuggets, fries, and dip"
+          }
+        ]
+      },
+      {
+        "name": "Fries",
+        "description": "Crispy golden fries",
+        "image": "",
+        "items": [
+          {
+            "name": "Regular Fries",
+            "price": 2.49,
+            "description": "Classic crispy fries"
+          },
+          {
+            "name": "Loaded Fries",
+            "price": 4.99,
+            "description": "Topped with cheese, sauce, and jalapeños"
+          },
+          {
+            "name": "Cheesy Fries",
+            "price": 3.99,
+            "description": "Smothered in melted cheese"
+          }
+        ]
+      },
+      {
+        "name": "Starters",
+        "description": "Perfect to start your meal",
+        "image": "https://images.pexels.com/photos/24182618/pexels-photo-24182618.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "items": [
+          {
+            "name": "Chicken Wings",
+            "price": 5.99,
+            "description": "Crispy wings with your choice of sauce (6 pcs)"
+          },
+          {
+            "name": "Chicken Strips",
+            "price": 5.49,
+            "description": "Tender chicken strips (4 pcs)"
+          },
+          {
+            "name": "Nuggets",
+            "price": 4.49,
+            "description": "Golden chicken nuggets (6 pcs)"
+          },
+          {
+            "name": "Onion Rings",
+            "price": 3.49,
+            "description": "Crispy battered onion rings"
+          },
+          {
+            "name": "Mozzarella Sticks",
+            "price": 4.99,
+            "description": "Breaded mozzarella sticks (5 pcs)"
+          }
+        ]
+      },
+      {
+        "name": "Milkshakes",
+        "description": "Thick and creamy",
+        "image": "",
+        "items": [
+          {
+            "name": "Vanilla Milkshake",
+            "price": 3.99,
+            "description": "Classic vanilla"
+          },
+          {
+            "name": "Chocolate Milkshake",
+            "price": 3.99,
+            "description": "Rich chocolate"
+          },
+          {
+            "name": "Strawberry Milkshake",
+            "price": 3.99,
+            "description": "Fresh strawberry"
+          },
+          {
+            "name": "Oreo Milkshake",
+            "price": 4.49,
+            "description": "Cookies and cream"
+          },
+          {
+            "name": "Ferrero Rocher Milkshake",
+            "price": 4.99,
+            "description": "Indulgent hazelnut chocolate"
+          },
+          {
+            "name": "Kinder Bueno Milkshake",
+            "price": 4.99,
+            "description": "Smooth hazelnut cream"
+          },
+          {
+            "name": "Biscoff Milkshake",
+            "price": 4.49,
+            "description": "Caramelised biscuit flavour"
+          }
+        ]
+      },
+      {
+        "name": "Cheesecake",
+        "description": "Served per slice",
+        "image": "https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "items": [
+          {
+            "name": "Oreo Cheesecake",
+            "price": 3.99,
+            "description": "Creamy Oreo cheesecake"
+          },
+          {
+            "name": "Biscoff Cheesecake",
+            "price": 3.99,
+            "description": "Caramel biscuit cheesecake"
+          },
+          {
+            "name": "Strawberry Cheesecake",
+            "price": 3.99,
+            "description": "Classic strawberry"
+          },
+          {
+            "name": "Chocolate Cheesecake",
+            "price": 3.99,
+            "description": "Rich chocolate"
+          },
+          {
+            "name": "Kinder Bueno Cheesecake",
+            "price": 4.49,
+            "description": "Hazelnut chocolate cheesecake"
+          },
+          {
+            "name": "Ferrero Rocher Cheesecake",
+            "price": 4.49,
+            "description": "Luxurious hazelnut cheesecake"
+          }
+        ]
+      },
+      {
+        "name": "Brownie",
+        "description": "Served per slice",
+        "image": "",
+        "items": [
+          {
+            "name": "Chocolate Brownie",
+            "price": 3.49,
+            "description": "Fudgy chocolate brownie"
+          },
+          {
+            "name": "Oreo Brownie",
+            "price": 3.99,
+            "description": "Brownie loaded with Oreo"
+          },
+          {
+            "name": "Kinder Bueno Brownie",
+            "price": 4.49,
+            "description": "Hazelnut chocolate brownie"
+          },
+          {
+            "name": "Biscoff Brownie",
+            "price": 3.99,
+            "description": "Caramel biscuit brownie"
+          },
+          {
+            "name": "Ferrero Rocher Brownie",
+            "price": 4.49,
+            "description": "Hazelnut brownie delight"
+          },
+          {
+            "name": "White Chocolate Brownie",
+            "price": 3.99,
+            "description": "White chocolate fudge brownie"
+          }
+        ]
+      },
+      {
+        "name": "Indie Special Desserts",
+        "description": "Signature sweet treats",
+        "image": "",
+        "items": [
+          {
+            "name": "Cookie Dough",
+            "price": 5.99,
+            "description": "Warm cookie dough with ice cream"
+          },
+          {
+            "name": "Waffle",
+            "price": 5.99,
+            "description": "Belgian waffle with toppings"
+          }
+        ]
+      },
+      {
+        "name": "Meal Deals",
+        "description": "With chips and drinks",
+        "image": "",
+        "items": [
+          {
+            "name": "Meal Deal 1",
+            "price": 14.99,
+            "description": "Any burger + chips + drink"
+          },
+          {
+            "name": "Meal Deal 2",
+            "price": 16.49,
+            "description": "Any burger + wings + chips + drink"
+          },
+          {
+            "name": "Meal Deal 3",
+            "price": 19.99,
+            "description": "2 burgers + 2 chips + 2 drinks"
+          }
+        ]
+      },
+      {
+        "name": "Cold Drinks",
+        "description": "Refreshing beverages",
+        "image": "",
+        "items": [
+          {
+            "name": "Coca-Cola",
+            "price": 1.49,
+            "description": "330ml can"
+          },
+          {
+            "name": "Pepsi",
+            "price": 1.49,
+            "description": "330ml can"
+          },
+          {
+            "name": "Fanta Orange",
+            "price": 1.49,
+            "description": "330ml can"
+          },
+          {
+            "name": "Sprite",
+            "price": 1.49,
+            "description": "330ml can"
+          },
+          {
+            "name": "7UP",
+            "price": 1.49,
+            "description": "330ml can"
+          },
+          {
+            "name": "Water",
+            "price": 0.99,
+            "description": "500ml bottle"
+          },
+          {
+            "name": "Red Bull",
+            "price": 2.49,
+            "description": "250ml can"
+          }
+        ]
+      },
+      {
+        "name": "Dips",
+        "description": "Indie Special Sauce",
+        "image": "",
+        "items": [
+          {
+            "name": "Indie Special Sauce",
+            "price": 0.49,
+            "description": "Our signature sauce"
+          },
+          {
+            "name": "Garlic Mayo",
+            "price": 0.49,
+            "description": "Creamy garlic mayonnaise"
+          },
+          {
+            "name": "BBQ Sauce",
+            "price": 0.49,
+            "description": "Smoky BBQ sauce"
+          },
+          {
+            "name": "Hot Sauce",
+            "price": 0.49,
+            "description": "Spicy kick"
+          },
+          {
+            "name": "Ketchup",
+            "price": 0.49,
+            "description": "Classic tomato ketchup"
+          },
+          {
+            "name": "Mayo",
+            "price": 0.49,
+            "description": "Creamy mayonnaise"
+          }
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "phone": "01484 621575",
+    "address": "22 Newsome Rd, Huddersfield HD4 6NY",
+    "hours": {
+      "monday": "16:00 - 23:45",
+      "tuesday": "16:00 - 23:45",
+      "wednesday": "16:00 - 23:45",
+      "thursday": "16:00 - 23:45",
+      "friday": "16:00 - 23:45",
+      "saturday": "16:00 - 23:45",
+      "sunday": "16:00 - 22:45"
+    },
+    "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2364.8!2d-1.7766!3d53.6280!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bc1e5e5e5e5e5%3A0x5e5e5e5e5e5e5e5e!2s22%20Newsome%20Rd%2C%20Huddersfield%20HD4%206NY!5e0!3m2!1sen!2suk!4v1234567890"
+  },
+  "social": {
+    "facebook": "#",
+    "instagram": "#",
+    "twitter": "#"
+  },
+  "badges": [
+    "100% Halal",
+    "Fresh Ingredients",
+    "Late Night Service"
+  ]
+}

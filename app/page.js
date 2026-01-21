@@ -1,45 +1,55 @@
 'use client'
 
-import { useEffect } from "react";
+import { useEffect, useState } from 'react'
+import HeroSection from '@/components/hero-section'
+import OffersSection from '@/components/offers-section'
+import MenuSection from '@/components/menu-section'
+import ContactSection from '@/components/contact-section'
+import Footer from '@/components/footer'
 
-const Home = () => {
-  const helloWorldApi = async () => {
-    try {
-      const response = await fetch('/api/');
-      const data = await response.json();
-      console.log(data.message);
-    } catch (e) {
-      console.error(e, `errored out requesting / api`);
-    }
-  };
+export default function Home() {
+  const [content, setContent] = useState(null)
+  const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    helloWorldApi();
-  }, []);
+    fetch('/data/content.json')
+      .then(res => res.json())
+      .then(data => {
+        setContent(data)
+        setLoading(false)
+      })
+      .catch(err => {
+        console.error('Failed to load content:', err)
+        setLoading(false)
+      })
+  }, [])
+
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-black flex items-center justify-center">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-16 w-16 border-t-2 border-b-2 border-red-500 mx-auto mb-4" />
+          <p className="text-white text-xl">Loading...</p>
+        </div>
+      </div>
+    )
+  }
+
+  if (!content) {
+    return (
+      <div className="min-h-screen bg-black flex items-center justify-center">
+        <p className="text-white text-xl">Failed to load content</p>
+      </div>
+    )
+  }
 
   return (
-    <div>
-      <header className="App-header">
-        <a
-          className="App-link"
-          href="https://emergent.sh"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src="https://avatars.githubusercontent.com/in/1201222?s=120&u=2686cf91179bbafbc7a71bfbc43004cf9ae1acea&v=4" alt="Emergent" />
-        </a>
-        <p className="mt-5">Building something incredible ~!</p>
-      </header>
-    </div>
-  );
-};
-
-function App() {
-  return (
-    <div className="App">
-      <Home />
-    </div>
-  );
+    <main className="min-h-screen bg-black">
+      <HeroSection data={content.hero} />
+      <OffersSection data={content.offers} />
+      <MenuSection data={content.menu} />
+      <ContactSection data={content.contact} />
+      <Footer social={content.social} badges={content.badges} />
+    </main>
+  )
 }
-
-export default App;
