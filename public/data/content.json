@@ -33,22 +33,26 @@
           {
             "name": "Chicken Burger",
             "price": 6.49,
-            "description": "Crispy chicken fillet with fresh lettuce, tomato, and signature sauce"
+            "description": "Crispy chicken fillet with fresh lettuce, tomato, and signature sauce",
+            "image": "https://images.pexels.com/photos/1108117/pexels-photo-1108117.jpeg?auto=compress&cs=tinysrgb&w=200"
           },
           {
             "name": "Beef Burger",
             "price": 5.99,
-            "description": "Juicy beef patty with classic toppings"
+            "description": "Juicy beef patty with classic toppings",
+            "image": "https://images.unsplash.com/photo-1619683909021-fb6499a0d7ae?auto=format&fit=crop&w=200"
           },
           {
             "name": "Indie Special Burger",
             "price": 7.99,
-            "description": "Our signature creation with premium toppings"
+            "description": "Our signature creation with premium toppings",
+            "image": "https://images.pexels.com/photos/2271107/pexels-photo-2271107.jpeg?auto=compress&cs=tinysrgb&w=200"
           },
           {
             "name": "Cheese Burger",
             "price": 6.49,
-            "description": "Classic beef burger with melted cheese"
+            "description": "Classic beef burger with melted cheese",
+            "image": "https://images.pexels.com/photos/1108117/pexels-photo-1108117.jpeg?auto=compress&cs=tinysrgb&w=200"
           }
         ]
       },
@@ -67,7 +71,7 @@
             "name": "Beef Wrap",
             "price": 6.49,
             "description": "Seasoned beef with crisp vegetables",
-            "image": "https://images.pexels.com/photos/17200357/pexels-photo-17200357.jpeg?auto=compress&cs=tinysrgb&w=200"
+            "image": "https://images.pexels.com/photos/34138804/pexels-photo-34138804.jpeg?auto=compress&cs=tinysrgb&w=200"
           },
           {
             "name": "Veggie Wrap",
@@ -86,82 +90,94 @@
             "name": "Margherita Pizza",
             "price": 7.49,
             "size": "9\" / 12\" / 15\"",
-            "description": "Classic tomato and mozzarella"
+            "description": "Classic tomato and mozzarella",
+            "image": "https://images.pexels.com/photos/33592985/pexels-photo-33592985.jpeg?auto=compress&cs=tinysrgb&w=200"
           },
           {
             "name": "Meat Feast Pizza",
             "price": 9.49,
             "size": "9\" / 12\" / 15\"",
-            "description": "Loaded with pepperoni, beef, and chicken"
+            "description": "Loaded with pepperoni, beef, and chicken",
+            "image": "https://images.pexels.com/photos/33592985/pexels-photo-33592985.jpeg?auto=compress&cs=tinysrgb&w=200"
           },
           {
             "name": "Pepperoni Pizza",
             "price": 8.49,
             "size": "9\" / 12\" / 15\"",
-            "description": "Generous pepperoni topping"
+            "description": "Generous pepperoni topping",
+            "image": "https://images.pexels.com/photos/33592985/pexels-photo-33592985.jpeg?auto=compress&cs=tinysrgb&w=200"
           },
           {
             "name": "BBQ Chicken Pizza",
             "price": 8.99,
             "size": "9\" / 12\" / 15\"",
-            "description": "Tender chicken with BBQ sauce"
+            "description": "Tender chicken with BBQ sauce",
+            "image": "https://images.pexels.com/photos/33592985/pexels-photo-33592985.jpeg?auto=compress&cs=tinysrgb&w=200"
           },
           {
             "name": "Vegetarian Pizza",
             "price": 7.99,
             "size": "9\" / 12\" / 15\"",
-            "description": "Fresh vegetables on tomato base"
+            "description": "Fresh vegetables on tomato base",
+            "image": "https://images.pexels.com/photos/33592985/pexels-photo-33592985.jpeg?auto=compress&cs=tinysrgb&w=200"
           },
           {
             "name": "Hawaiian Pizza",
             "price": 8.49,
             "size": "9\" / 12\" / 15\"",
-            "description": "Ham and pineapple"
+            "description": "Ham and pineapple",
+            "image": "https://images.pexels.com/photos/33592985/pexels-photo-33592985.jpeg?auto=compress&cs=tinysrgb&w=200"
           },
           {
             "name": "Four Cheese Pizza",
             "price": 8.99,
             "size": "9\" / 12\" / 15\"",
-            "description": "Mozzarella, cheddar, parmesan, blue cheese"
+            "description": "Mozzarella, cheddar, parmesan, blue cheese",
+            "image": "https://images.pexels.com/photos/33592985/pexels-photo-33592985.jpeg?auto=compress&cs=tinysrgb&w=200"
           }
         ]
       },
       {
         "name": "Loaded Box",
         "description": "Boxes packed with flavour",
-        "image": "",
+        "image": "https://images.pexels.com/photos/34138804/pexels-photo-34138804.jpeg?auto=compress&cs=tinysrgb&w=400",
         "items": [
           {
             "name": "Chicken Loaded Box",
             "price": 8.99,
-            "description": "Chicken strips, wings, fries, and dip"
+            "description": "Chicken strips, wings, fries, and dip",
+            "image": "https://images.pexels.com/photos/34138804/pexels-photo-34138804.jpeg?auto=compress&cs=tinysrgb&w=200"
           },
           {
             "name": "Mix Loaded Box",
             "price": 9.99,
-            "description": "Chicken, wings, nuggets, fries, and dip"
+            "description": "Chicken, wings, nuggets, fries, and dip",
+            "image": "https://images.pexels.com/photos/24182618/pexels-photo-24182618.jpeg?auto=compress&cs=tinysrgb&w=200"
           }
         ]
       },
       {
         "name": "Fries",
         "description": "Crispy golden fries",
-        "image": "",
+        "image": "https://images.pexels.com/photos/1893556/pexels-photo-1893556.jpeg?auto=compress&cs=tinysrgb&w=400",
         "items": [
           {
             "name": "Regular Fries",
             "price": 2.49,
-            "description": "Classic crispy fries"
+            "description": "Classic crispy fries",
+            "image": "https://images.pexels.com/photos/1893556/pexels-photo-1893556.jpeg?auto=compress&cs=tinysrgb&w=200"
           },
           {
             "name": "Loaded Fries",
             "price": 4.99,
-            "description": "Topped with cheese, sauce, and jalapeños"
+            "description": "Topped with cheese, sauce, and jalapeños",
+            "image": "https://images.pexels.com/photos/1893556/pexels-photo-1893556.jpeg?auto=compress&cs=tinysrgb&w=200"
           },
           {
             "name": "Cheesy Fries",
             "price": 3.99,
-            "description": "Smothered in melted cheese"
+            "description": "Smothered in melted cheese",
+            "image": "https://images.pexels.com/photos/1893556/pexels-photo-1893556.jpeg?auto=compress&cs=tinysrgb&w=200"
           }
         ]
       },
@@ -173,69 +189,81 @@
           {
             "name": "Chicken Wings",
             "price": 5.99,
-            "description": "Crispy wings with your choice of sauce (6 pcs)"
+            "description": "Crispy wings with your choice of sauce (6 pcs)",
+            "image": "https://images.pexels.com/photos/24182618/pexels-photo-24182618.jpeg?auto=compress&cs=tinysrgb&w=200"
           },
           {
             "name": "Chicken Strips",
             "price": 5.49,
-            "description": "Tender chicken strips (4 pcs)"
+            "description": "Tender chicken strips (4 pcs)",
+            "image": "https://images.pexels.com/photos/34138804/pexels-photo-34138804.jpeg?auto=compress&cs=tinysrgb&w=200"
           },
           {
             "name": "Nuggets",
             "price": 4.49,
-            "description": "Golden chicken nuggets (6 pcs)"
+            "description": "Golden chicken nuggets (6 pcs)",
+            "image": "https://images.pexels.com/photos/34138804/pexels-photo-34138804.jpeg?auto=compress&cs=tinysrgb&w=200"
           },
           {
             "name": "Onion Rings",
             "price": 3.49,
-            "description": "Crispy battered onion rings"
+            "description": "Crispy battered onion rings",
+            "image": "https://images.pexels.com/photos/1893556/pexels-photo-1893556.jpeg?auto=compress&cs=tinysrgb&w=200"
           },
           {
             "name": "Mozzarella Sticks",
             "price": 4.99,
-            "description": "Breaded mozzarella sticks (5 pcs)"
+            "description": "Breaded mozzarella sticks (5 pcs)",
+            "image": "https://images.pexels.com/photos/1893556/pexels-photo-1893556.jpeg?auto=compress&cs=tinysrgb&w=200"
           }
         ]
       },
       {
         "name": "Milkshakes",
         "description": "Thick and creamy",
-        "image": "",
+        "image": "https://images.pexels.com/photos/2559025/pexels-photo-2559025.jpeg?auto=compress&cs=tinysrgb&w=400",
         "items": [
           {
             "name": "Vanilla Milkshake",
             "price": 3.99,
-            "description": "Classic vanilla"
+            "description": "Classic vanilla",
+            "image": "https://images.pexels.com/photos/2559025/pexels-photo-2559025.jpeg?auto=compress&cs=tinysrgb&w=200"
           },
           {
             "name": "Chocolate Milkshake",
             "price": 3.99,
-            "description": "Rich chocolate"
+            "description": "Rich chocolate",
+            "image": "https://images.pexels.com/photos/2559025/pexels-photo-2559025.jpeg?auto=compress&cs=tinysrgb&w=200"
           },
           {
             "name": "Strawberry Milkshake",
             "price": 3.99,
-            "description": "Fresh strawberry"
+            "description": "Fresh strawberry",
+            "image": "https://images.pexels.com/photos/2559025/pexels-photo-2559025.jpeg?auto=compress&cs=tinysrgb&w=200"
           },
           {
             "name": "Oreo Milkshake",
             "price": 4.49,
-            "description": "Cookies and cream"
+            "description": "Cookies and cream",
+            "image": "https://images.pexels.com/photos/2559025/pexels-photo-2559025.jpeg?auto=compress&cs=tinysrgb&w=200"
           },
           {
             "name": "Ferrero Rocher Milkshake",
             "price": 4.99,
-            "description": "Indulgent hazelnut chocolate"
+            "description": "Indulgent hazelnut chocolate",
+            "image": "https://images.pexels.com/photos/2559025/pexels-photo-2559025.jpeg?auto=compress&cs=tinysrgb&w=200"
           },
           {
             "name": "Kinder Bueno Milkshake",
             "price": 4.99,
-            "description": "Smooth hazelnut cream"
+            "description": "Smooth hazelnut cream",
+            "image": "https://images.pexels.com/photos/2559025/pexels-photo-2559025.jpeg?auto=compress&cs=tinysrgb&w=200"
           },
           {
             "name": "Biscoff Milkshake",
             "price": 4.49,
-            "description": "Caramelised biscuit flavour"
+            "description": "Caramelised biscuit flavour",
+            "image": "https://images.pexels.com/photos/2559025/pexels-photo-2559025.jpeg?auto=compress&cs=tinysrgb&w=200"
           }
         ]
       },
@@ -247,187 +275,217 @@
           {
             "name": "Oreo Cheesecake",
             "price": 3.99,
-            "description": "Creamy Oreo cheesecake"
+            "description": "Creamy Oreo cheesecake",
+            "image": "https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&w=200"
           },
           {
             "name": "Biscoff Cheesecake",
             "price": 3.99,
-            "description": "Caramel biscuit cheesecake"
+            "description": "Caramel biscuit cheesecake",
+            "image": "https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&w=200"
           },
           {
             "name": "Strawberry Cheesecake",
             "price": 3.99,
-            "description": "Classic strawberry"
+            "description": "Classic strawberry",
+            "image": "https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&w=200"
           },
           {
             "name": "Chocolate Cheesecake",
             "price": 3.99,
-            "description": "Rich chocolate"
+            "description": "Rich chocolate",
+            "image": "https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&w=200"
           },
           {
             "name": "Kinder Bueno Cheesecake",
             "price": 4.49,
-            "description": "Hazelnut chocolate cheesecake"
+            "description": "Hazelnut chocolate cheesecake",
+            "image": "https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&w=200"
           },
           {
             "name": "Ferrero Rocher Cheesecake",
             "price": 4.49,
-            "description": "Luxurious hazelnut cheesecake"
+            "description": "Luxurious hazelnut cheesecake",
+            "image": "https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&w=200"
           }
         ]
       },
       {
         "name": "Brownie",
         "description": "Served per slice",
-        "image": "",
+        "image": "https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&w=400",
         "items": [
           {
             "name": "Chocolate Brownie",
             "price": 3.49,
-            "description": "Fudgy chocolate brownie"
+            "description": "Fudgy chocolate brownie",
+            "image": "https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&w=200"
           },
           {
             "name": "Oreo Brownie",
             "price": 3.99,
-            "description": "Brownie loaded with Oreo"
+            "description": "Brownie loaded with Oreo",
+            "image": "https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&w=200"
           },
           {
             "name": "Kinder Bueno Brownie",
             "price": 4.49,
-            "description": "Hazelnut chocolate brownie"
+            "description": "Hazelnut chocolate brownie",
+            "image": "https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&w=200"
           },
           {
             "name": "Biscoff Brownie",
             "price": 3.99,
-            "description": "Caramel biscuit brownie"
+            "description": "Caramel biscuit brownie",
+            "image": "https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&w=200"
           },
           {
             "name": "Ferrero Rocher Brownie",
             "price": 4.49,
-            "description": "Hazelnut brownie delight"
+            "description": "Hazelnut brownie delight",
+            "image": "https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&w=200"
           },
           {
             "name": "White Chocolate Brownie",
             "price": 3.99,
-            "description": "White chocolate fudge brownie"
+            "description": "White chocolate fudge brownie",
+            "image": "https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&w=200"
           }
         ]
       },
       {
         "name": "Indie Special Desserts",
         "description": "Signature sweet treats",
-        "image": "",
+        "image": "https://images.pexels.com/photos/7786846/pexels-photo-7786846.jpeg?auto=compress&cs=tinysrgb&w=400",
         "items": [
           {
             "name": "Cookie Dough",
             "price": 5.99,
-            "description": "Warm cookie dough with ice cream"
+            "description": "Warm cookie dough with ice cream",
+            "image": "https://images.pexels.com/photos/7786846/pexels-photo-7786846.jpeg?auto=compress&cs=tinysrgb&w=200"
           },
           {
             "name": "Waffle",
             "price": 5.99,
-            "description": "Belgian waffle with toppings"
+            "description": "Belgian waffle with toppings",
+            "image": "https://images.pexels.com/photos/7786846/pexels-photo-7786846.jpeg?auto=compress&cs=tinysrgb&w=200"
           }
         ]
       },
       {
         "name": "Meal Deals",
         "description": "With chips and drinks",
-        "image": "",
+        "image": "https://images.pexels.com/photos/2271107/pexels-photo-2271107.jpeg?auto=compress&cs=tinysrgb&w=400",
         "items": [
           {
             "name": "Meal Deal 1",
             "price": 14.99,
-            "description": "Any burger + chips + drink"
+            "description": "Any burger + chips + drink",
+            "image": "https://images.pexels.com/photos/2271107/pexels-photo-2271107.jpeg?auto=compress&cs=tinysrgb&w=200"
           },
           {
             "name": "Meal Deal 2",
             "price": 16.49,
-            "description": "Any burger + wings + chips + drink"
+            "description": "Any burger + wings + chips + drink",
+            "image": "https://images.pexels.com/photos/2271107/pexels-photo-2271107.jpeg?auto=compress&cs=tinysrgb&w=200"
           },
           {
             "name": "Meal Deal 3",
             "price": 19.99,
-            "description": "2 burgers + 2 chips + 2 drinks"
+            "description": "2 burgers + 2 chips + 2 drinks",
+            "image": "https://images.pexels.com/photos/2271107/pexels-photo-2271107.jpeg?auto=compress&cs=tinysrgb&w=200"
           }
         ]
       },
       {
         "name": "Cold Drinks",
         "description": "Refreshing beverages",
-        "image": "",
+        "image": "https://images.pexels.com/photos/11941939/pexels-photo-11941939.jpeg?auto=compress&cs=tinysrgb&w=400",
         "items": [
           {
             "name": "Coca-Cola",
             "price": 1.49,
-            "description": "330ml can"
+            "description": "330ml can",
+            "image": "https://images.pexels.com/photos/11941939/pexels-photo-11941939.jpeg?auto=compress&cs=tinysrgb&w=200"
           },
           {
             "name": "Pepsi",
             "price": 1.49,
-            "description": "330ml can"
+            "description": "330ml can",
+            "image": "https://images.pexels.com/photos/11941939/pexels-photo-11941939.jpeg?auto=compress&cs=tinysrgb&w=200"
           },
           {
             "name": "Fanta Orange",
             "price": 1.49,
-            "description": "330ml can"
+            "description": "330ml can",
+            "image": "https://images.pexels.com/photos/11941939/pexels-photo-11941939.jpeg?auto=compress&cs=tinysrgb&w=200"
           },
           {
             "name": "Sprite",
             "price": 1.49,
-            "description": "330ml can"
+            "description": "330ml can",
+            "image": "https://images.pexels.com/photos/11941939/pexels-photo-11941939.jpeg?auto=compress&cs=tinysrgb&w=200"
           },
           {
             "name": "7UP",
             "price": 1.49,
-            "description": "330ml can"
+            "description": "330ml can",
+            "image": "https://images.pexels.com/photos/11941939/pexels-photo-11941939.jpeg?auto=compress&cs=tinysrgb&w=200"
           },
           {
             "name": "Water",
             "price": 0.99,
-            "description": "500ml bottle"
+            "description": "500ml bottle",
+            "image": "https://images.pexels.com/photos/11941939/pexels-photo-11941939.jpeg?auto=compress&cs=tinysrgb&w=200"
           },
           {
             "name": "Red Bull",
             "price": 2.49,
-            "description": "250ml can"
+            "description": "250ml can",
+            "image": "https://images.pexels.com/photos/11941939/pexels-photo-11941939.jpeg?auto=compress&cs=tinysrgb&w=200"
           }
         ]
       },
       {
         "name": "Dips",
         "description": "Indie Special Sauce",
-        "image": "",
+        "image": "https://images.pexels.com/photos/4958522/pexels-photo-4958522.jpeg?auto=compress&cs=tinysrgb&w=400",
         "items": [
           {
             "name": "Indie Special Sauce",
             "price": 0.49,
-            "description": "Our signature sauce"
+            "description": "Our signature sauce",
+            "image": "https://images.pexels.com/photos/4958522/pexels-photo-4958522.jpeg?auto=compress&cs=tinysrgb&w=200"
           },
           {
             "name": "Garlic Mayo",
             "price": 0.49,
-            "description": "Creamy garlic mayonnaise"
+            "description": "Creamy garlic mayonnaise",
+            "image": "https://images.pexels.com/photos/4958522/pexels-photo-4958522.jpeg?auto=compress&cs=tinysrgb&w=200"
           },
           {
             "name": "BBQ Sauce",
             "price": 0.49,
-            "description": "Smoky BBQ sauce"
+            "description": "Smoky BBQ sauce",
+            "image": "https://images.pexels.com/photos/4958522/pexels-photo-4958522.jpeg?auto=compress&cs=tinysrgb&w=200"
           },
           {
             "name": "Hot Sauce",
             "price": 0.49,
-            "description": "Spicy kick"
+            "description": "Spicy kick",
+            "image": "https://images.pexels.com/photos/4958522/pexels-photo-4958522.jpeg?auto=compress&cs=tinysrgb&w=200"
           },
           {
             "name": "Ketchup",
             "price": 0.49,
-            "description": "Classic tomato ketchup"
+            "description": "Classic tomato ketchup",
+            "image": "https://images.pexels.com/photos/4958522/pexels-photo-4958522.jpeg?auto=compress&cs=tinysrgb&w=200"
           },
           {
             "name": "Mayo",
             "price": 0.49,
-            "description": "Creamy mayonnaise"
+            "description": "Creamy mayonnaise",
+            "image": "https://images.pexels.com/photos/4958522/pexels-photo-4958522.jpeg?auto=compress&cs=tinysrgb&w=200"
           }
         ]
       }
