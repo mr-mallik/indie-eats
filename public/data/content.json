@@ -55,22 +55,25 @@
       {
         "name": "Wraps",
         "description": "Fresh wraps packed with flavour",
-        "image": "",
+        "image": "https://images.pexels.com/photos/17200357/pexels-photo-17200357.jpeg?auto=compress&cs=tinysrgb&w=400",
         "items": [
           {
             "name": "Chicken Wrap",
             "price": 5.99,
-            "description": "Grilled chicken with fresh salad and sauce"
+            "description": "Grilled chicken with fresh salad and sauce",
+            "image": "https://images.pexels.com/photos/17200357/pexels-photo-17200357.jpeg?auto=compress&cs=tinysrgb&w=200"
           },
           {
             "name": "Beef Wrap",
             "price": 6.49,
-            "description": "Seasoned beef with crisp vegetables"
+            "description": "Seasoned beef with crisp vegetables",
+            "image": "https://images.pexels.com/photos/17200357/pexels-photo-17200357.jpeg?auto=compress&cs=tinysrgb&w=200"
           },
           {
             "name": "Veggie Wrap",
             "price": 5.49,
-            "description": "Fresh vegetables and creamy sauce"
+            "description": "Fresh vegetables and creamy sauce",
+            "image": "https://images.pexels.com/photos/17200357/pexels-photo-17200357.jpeg?auto=compress&cs=tinysrgb&w=200"
           }
         ]
       },
