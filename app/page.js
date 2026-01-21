@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react'
+import Header from '@/components/header'
 import HeroSection from '@/components/hero-section'
 import OffersSection from '@/components/offers-section'
 import MenuSection from '@/components/menu-section'
@@ -45,6 +46,7 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-black">
+      <Header phone={content.contact.phone} />
       <HeroSection data={content.hero} />
       <OffersSection data={content.offers} />
       <MenuSection data={content.menu} />
