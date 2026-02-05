@@ -5,7 +5,7 @@ import { ArrowRight } from 'lucide-react'
 
 export default function OffersSection({ data }) {
   return (
-    <section className="py-32 bg-black relative overflow-hidden">
+    <section id="offers" className="py-32 bg-black relative overflow-hidden">
       {/* Pizza Background - positioned at bottom right */}
        <div className="absolute inset-0 opacity-5">
         <img

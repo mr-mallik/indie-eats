@@ -9,6 +9,13 @@
   },
   "offers": [
     {
+      "id": "new-collection",
+      "title": "Buy 1 Get 1 Free",
+      "description": "Try our new collection of dosa's, chaats and rice box. Buy one and get another free. Perfect for sharing (or not!).",
+      "image": "https://pngimg.com/d/pizza_PNG44095.png",
+      "expires": "Ongoing Offer"
+    },
+    {
       "id": "phone-discount",
       "title": "10% Off Direct Orders",
       "description": "Skip the apps. Call us directly and save 10% on your entire order.",
@@ -59,7 +66,7 @@
       {
         "name": "Wraps",
         "description": "Fresh wraps packed with flavour",
-        "image": "https://images.pexels.com/photos/2474658/pexels-photo-2474658.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "image": "https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?_gl=1*1vh5l2b*_ga*MTM4MTAyMDUxLjE3NDIzMjcwNzA.*_ga_8JE65Q40S6*czE3NzAyOTA4NzkkbzkkZzEkdDE3NzAyOTEyNDYkajU5JGwwJGgw",
         "items": [
           {
             "name": "Chicken Wrap",
@@ -184,7 +191,7 @@
       {
         "name": "Starters",
         "description": "Perfect to start your meal",
-        "image": "https://images.pexels.com/photos/9980355/pexels-photo-9980355.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "image": "https://images.pexels.com/photos/34305982/pexels-photo-34305982.jpeg?_gl=1*o2rnu4*_ga*MTM4MTAyMDUxLjE3NDIzMjcwNzA.*_ga_8JE65Q40S6*czE3NzAyOTA4NzkkbzkkZzEkdDE3NzAyOTEzNDIkajQxJGwwJGgw",
         "items": [
           {
             "name": "Chicken Wings",
@@ -221,7 +228,7 @@
       {
         "name": "Milkshakes",
         "description": "Thick and creamy",
-        "image": "https://images.pexels.com/photos/1841160/pexels-photo-1841160.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "image": "https://images.pexels.com/photos/17518790/pexels-photo-17518790.png?_gl=1*3ha2zf*_ga*MTM4MTAyMDUxLjE3NDIzMjcwNzA.*_ga_8JE65Q40S6*czE3NzAyOTA4NzkkbzkkZzEkdDE3NzAyOTE0MTEkajQ1JGwwJGgw",
         "items": [
           {
             "name": "Vanilla Milkshake",
@@ -359,15 +366,15 @@
         "image": "https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=1200",
         "items": [
           {
-            "name": "Cookie Dough",
-            "price": 5.99,
-            "description": "Warm cookie dough with ice cream",
-            "image": "https://images.pexels.com/photos/7786846/pexels-photo-7786846.jpeg?auto=compress&cs=tinysrgb&w=200"
-          },
-          {
             "name": "Waffle",
             "price": 5.99,
             "description": "Belgian waffle with toppings",
+            "image": "https://images.pexels.com/photos/7786846/pexels-photo-7786846.jpeg?auto=compress&cs=tinysrgb&w=200"
+          },
+          {
+            "name": "Cookie Dough",
+            "price": 5.99,
+            "description": "Warm cookie dough with ice cream",
             "image": "https://images.pexels.com/photos/7786846/pexels-photo-7786846.jpeg?auto=compress&cs=tinysrgb&w=200"
           }
         ]
@@ -375,7 +382,7 @@
       {
         "name": "Meal Deals",
         "description": "With chips and drinks",
-        "image": "https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "image": "https://images.pexels.com/photos/14709724/pexels-photo-14709724.jpeg?_gl=1*2jd3s3*_ga*MTM4MTAyMDUxLjE3NDIzMjcwNzA.*_ga_8JE65Q40S6*czE3NzAyOTA4NzkkbzkkZzEkdDE3NzAyOTE1MTQkajQ4JGwwJGgw",
         "items": [
           {
             "name": "Meal Deal 1",
@@ -486,6 +493,111 @@
             "price": 0.49,
             "description": "Creamy mayonnaise",
             "image": "https://images.pexels.com/photos/4958522/pexels-photo-4958522.jpeg?auto=compress&cs=tinysrgb&w=200"
+          }
+        ]
+      },
+      {
+        "name": "Dosas",
+        "description": "South Indian crispy crepes",
+        "image": "https://images.pexels.com/photos/12392915/pexels-photo-12392915.jpeg?_gl=1*1clonrc*_ga*MTM4MTAyMDUxLjE3NDIzMjcwNzA.*_ga_8JE65Q40S6*czE3NzAyOTA4NzkkbzkkZzEkdDE3NzAyOTIzMDUkajUzJGwwJGgw",
+        "items": [
+          {
+            "name": "Plain Dosa",
+            "price": 4.99,
+            "description": "Classic crispy dosa",
+            "image": "https://images.pexels.com/photos/5560763/pexels-photo-5560763.jpeg?auto=compress&cs=tinysrgb&w=200"
+          },
+          {
+            "name": "Ghee Dosa",
+            "price": 5.49,
+            "description": "Golden dosa with pure ghee",
+            "image": "https://images.pexels.com/photos/5560763/pexels-photo-5560763.jpeg?auto=compress&cs=tinysrgb&w=200"
+          },
+          {
+            "name": "Podi Dosa",
+            "price": 5.49,
+            "description": "Spiced with traditional podi",
+            "image": "https://images.pexels.com/photos/5560763/pexels-photo-5560763.jpeg?auto=compress&cs=tinysrgb&w=200"
+          },
+          {
+            "name": "Ghee Podi Dosa",
+            "price": 5.99,
+            "description": "Ghee dosa with spicy podi",
+            "image": "https://images.pexels.com/photos/5560763/pexels-photo-5560763.jpeg?auto=compress&cs=tinysrgb&w=200"
+          },
+          {
+            "name": "Masala Dosa",
+            "price": 6.49,
+            "description": "Stuffed with spiced potato filling",
+            "image": "https://images.pexels.com/photos/5560763/pexels-photo-5560763.jpeg?auto=compress&cs=tinysrgb&w=200"
+          },
+          {
+            "name": "Indie Special Masala Dosa",
+            "price": 7.99,
+            "description": "Our signature masala dosa with special filling",
+            "image": "https://images.pexels.com/photos/5560763/pexels-photo-5560763.jpeg?auto=compress&cs=tinysrgb&w=200"
+          }
+        ]
+      },
+      {
+        "name": "Rice Box",
+        "description": "Hearty rice and curry meals",
+        "image": "https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "items": [
+          {
+            "name": "Rice and Chicken Curry",
+            "price": 7.99,
+            "description": "Fragrant rice with tender chicken curry",
+            "image": "https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg?auto=compress&cs=tinysrgb&w=200"
+          },
+          {
+            "name": "Naan and Chicken Curry",
+            "price": 7.99,
+            "description": "Fresh naan bread with chicken curry",
+            "image": "https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg?auto=compress&cs=tinysrgb&w=200"
+          },
+          {
+            "name": "Chicken Rice Box",
+            "price": 8.99,
+            "description": "Complete rice box with chicken and sides",
+            "image": "https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg?auto=compress&cs=tinysrgb&w=200"
+          },
+          {
+            "name": "Indie Munch Box",
+            "price": 9.99,
+            "description": "Our signature rice box with special toppings",
+            "image": "https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg?auto=compress&cs=tinysrgb&w=200"
+          }
+        ]
+      },
+      {
+        "name": "Chaats",
+        "description": "Tangy Indian street food",
+        "image": "https://images.pexels.com/photos/34270741/pexels-photo-34270741.jpeg?_gl=1*pz7ne1*_ga*MTM4MTAyMDUxLjE3NDIzMjcwNzA.*_ga_8JE65Q40S6*czE3NzAyOTA4NzkkbzkkZzEkdDE3NzAyOTI2MTgkajMkbDAkaDA.",
+        "items": [
+          {
+            "name": "Samosa",
+            "price": 2.99,
+            "description": "Crispy pastry filled with spiced potatoes",
+            "image": "https://images.pexels.com/photos/6210748/pexels-photo-6210748.jpeg?auto=compress&cs=tinysrgb&w=200"
+          },
+          {
+            "name": "Samosa Chaat",
+            "price": 5.99,
+            "description": "Crushed samosa topped with yogurt and chutneys",
+            "image": "https://images.pexels.com/photos/6210748/pexels-photo-6210748.jpeg?auto=compress&cs=tinysrgb&w=200"
+          },
+          {
+            "name": "Chaat Fries",
+            "price": 4.99,
+            "description": "Crispy fries with tangy chaat masala",
+            "image": "https://images.pexels.com/photos/6210748/pexels-photo-6210748.jpeg?auto=compress&cs=tinysrgb&w=200"
+          },
+          {
+            "name": "Pani Puri",
+            "price": 4.49,
+            "description": "Crispy shells with spiced water and potato filling",
+            "image": "https://images.pexels.com/photos/6210748/pexels-photo-6210748.jpeg?auto=compress&cs=tinysrgb&w=200"
           }
         ]
       }

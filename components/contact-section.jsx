@@ -10,12 +10,12 @@ export default function ContactSection({ data }) {
   }
 
   return (
-    <section className="py-20 bg-gradient-to-b from-black via-zinc-900 to-black relative">
+    <section id="contact" className="py-20 bg-black relative">
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="font-playfair text-4xl md:text-5xl lg:text-6xl font-black text-white mb-4">
-            Ready to <span className="bg-gradient-to-r from-red-500 to-yellow-500 bg-clip-text text-transparent">Order?</span>
+          <h2 className="font-playfair text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">
+            Ready to <span className="text-amber-500">Order?</span>
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto mb-8">
             Call us now and get 10% off your order
@@ -23,7 +23,7 @@ export default function ContactSection({ data }) {
           <Button
             onClick={handleCall}
             size="lg"
-            className="bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white px-12 py-6 text-xl font-bold rounded-full shadow-2xl shadow-red-500/50 hover:shadow-red-600/60 transition-all duration-300 hover:scale-105"
+            className="bg-gradient-to-r from-amber-500 via-orange-500 to-amber-600 hover:from-amber-600 hover:via-orange-600 hover:to-amber-700 text-black px-12 py-6 text-xl font-bold rounded-full shadow-2xl shadow-amber-500/50 hover:shadow-amber-600/60 transition-all duration-300 hover:scale-105"
           >
             <Phone className="mr-3 h-6 w-6" />
             Call {data.phone}
@@ -33,35 +33,35 @@ export default function ContactSection({ data }) {
         {/* Contact Info Grid */}
         <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto mb-16">
           {/* Phone */}
-          <Card className="bg-zinc-900/50 border-zinc-800 backdrop-blur-sm hover:border-red-500/50 transition-all duration-300">
+          <Card className="backdrop-blur-sm bg-white/[0.02] border border-white/10 hover:bg-white/[0.04] transition-all duration-300">
             <CardContent className="p-6 text-center">
-              <div className="inline-flex items-center justify-center w-16 h-16 bg-red-500/20 rounded-full mb-4">
-                <Phone className="h-8 w-8 text-red-500" />
+              <div className="inline-flex items-center justify-center w-16 h-16 bg-amber-500/20 rounded-full mb-4">
+                <Phone className="h-8 w-8 text-amber-500" />
               </div>
               <h3 className="font-playfair text-xl font-bold text-white mb-2">Phone</h3>
-              <p className="text-gray-400">{data.phone}</p>
+              <p className="text-gray-300">{data.phone}</p>
             </CardContent>
           </Card>
 
           {/* Address */}
-          <Card className="bg-zinc-900/50 border-zinc-800 backdrop-blur-sm hover:border-red-500/50 transition-all duration-300">
+          <Card className="backdrop-blur-sm bg-white/[0.02] border border-white/10 hover:bg-white/[0.04] transition-all duration-300">
             <CardContent className="p-6 text-center">
-              <div className="inline-flex items-center justify-center w-16 h-16 bg-red-500/20 rounded-full mb-4">
-                <MapPin className="h-8 w-8 text-red-500" />
+              <div className="inline-flex items-center justify-center w-16 h-16 bg-amber-500/20 rounded-full mb-4">
+                <MapPin className="h-8 w-8 text-amber-500" />
               </div>
               <h3 className="font-playfair text-xl font-bold text-white mb-2">Address</h3>
-              <p className="text-gray-400">{data.address}</p>
+              <p className="text-gray-300">{data.address}</p>
             </CardContent>
           </Card>
 
           {/* Hours */}
-          <Card className="bg-zinc-900/50 border-zinc-800 backdrop-blur-sm hover:border-red-500/50 transition-all duration-300">
+          <Card className="backdrop-blur-sm bg-white/[0.02] border border-white/10 hover:bg-white/[0.04] transition-all duration-300">
             <CardContent className="p-6 text-center">
-              <div className="inline-flex items-center justify-center w-16 h-16 bg-red-500/20 rounded-full mb-4">
-                <Clock className="h-8 w-8 text-red-500" />
+              <div className="inline-flex items-center justify-center w-16 h-16 bg-amber-500/20 rounded-full mb-4">
+                <Clock className="h-8 w-8 text-amber-500" />
               </div>
               <h3 className="font-playfair text-xl font-bold text-white mb-2">Opening Hours</h3>
-              <div className="text-gray-400 text-sm space-y-1">
+              <div className="text-gray-300 text-sm space-y-1">
                 <p>Mon-Sat: {data.hours.monday}</p>
                 <p>Sun: {data.hours.sunday}</p>
               </div>
@@ -71,7 +71,7 @@ export default function ContactSection({ data }) {
 
         {/* Map */}
         <div className="max-w-5xl mx-auto">
-          <Card className="bg-zinc-900/50 border-zinc-800 backdrop-blur-sm overflow-hidden">
+          <Card className="backdrop-blur-sm bg-white/[0.02] border border-white/10 overflow-hidden">
             <CardContent className="p-0">
               <iframe
                 src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=22+Newsome+Rd,+Huddersfield+HD4+6NY&zoom=15`}
