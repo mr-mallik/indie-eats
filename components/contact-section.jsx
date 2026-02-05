@@ -10,7 +10,7 @@ export default function ContactSection({ data }) {
   }
 
   return (
-    <section className="py-20 bg-gradient-to-b from-black via-zinc-900 to-black relative">
+    <section id="contact" className="py-20 bg-gradient-to-b from-black via-zinc-900 to-black relative">
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="text-center mb-16">

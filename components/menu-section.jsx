@@ -10,7 +10,7 @@ export default function MenuSection({ data }) {
   const currentCategory = data.categories[activeTab]
 
   return (
-    <section className="py-32 bg-black relative">
+    <section id="menu" className="py-32 bg-black relative">
       <div className="container mx-auto px-6">
         {/* Section Header */}
         <div className="text-center mb-16">
