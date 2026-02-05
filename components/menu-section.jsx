@@ -20,7 +20,7 @@ export default function MenuSection({ data }) {
           <Badge variant="outline" className="text-red-500 border-red-500/50 text-sm px-4 py-1 mb-4">
             OUR MENU
           </Badge>
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-black text-white mb-4">
+          <h2 className="font-playfair text-4xl md:text-5xl lg:text-6xl font-black text-white mb-4">
             Explore Our <span className="bg-gradient-to-r from-red-500 to-orange-500 bg-clip-text text-transparent">Flavours</span>
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
@@ -51,7 +51,7 @@ export default function MenuSection({ data }) {
                       />
                     )}
                     <div>
-                      <CardTitle className="text-2xl font-bold text-white">
+                      <CardTitle className="font-playfair text-2xl font-bold text-white">
                         {category.name}
                       </CardTitle>
                       {category.description && (
@@ -85,7 +85,7 @@ export default function MenuSection({ data }) {
                           />
                         )}
                         <div className="flex-1">
-                          <h4 className="text-lg font-semibold text-white mb-1">
+                          <h4 className="font-playfair text-lg font-semibold text-white mb-1">
                             {item.name}
                           </h4>
                           {item.description && (

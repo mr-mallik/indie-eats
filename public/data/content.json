@@ -4,7 +4,7 @@
     "subheadline": "Premium street food delivered to your door",
     "phone": "01484 621575",
     "offerHighlight": "10% OFF when you order by phone",
-    "heroImage": "https://images.pexels.com/photos/1108117/pexels-photo-1108117.jpeg?auto=compress&cs=tinysrgb&w=1920",
+    "heroImage": "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=1920",
     "cta": "Call To Order Now"
   },
   "offers": [
@@ -12,14 +12,14 @@
       "id": "phone-discount",
       "title": "10% Off Direct Orders",
       "description": "Skip the apps. Call us directly and save 10% on your entire order.",
-      "image": "https://images.unsplash.com/photo-1619683909021-fb6499a0d7ae?auto=format&fit=crop&w=800",
+      "image": "https://pngimg.com/d/burger_sandwich_PNG4135.png",
       "expires": "Ongoing Offer"
     },
     {
       "id": "late-night",
       "title": "Open Late Every Night",
       "description": "Serving until 11:45 PM most nights. Late night cravings sorted.",
-      "image": "https://images.pexels.com/photos/24182618/pexels-photo-24182618.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "image": "https://pngimg.com/d/pizza_PNG44095.png",
       "expires": ""
     }
   ],

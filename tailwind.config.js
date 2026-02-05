@@ -17,6 +17,9 @@ module.exports = {
     		}
     	},
     	extend: {
+    		fontFamily: {
+    			playfair: ['var(--font-playfair)', 'serif'],
+    		},
     		colors: {
     			border: 'hsl(var(--border))',
     			input: 'hsl(var(--input))',
