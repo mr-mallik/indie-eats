@@ -38,7 +38,7 @@ export default function Footer({ social, badges }) {
           </p>
           <a 
             href="tel:01484621575" 
-            className="text-white font-bold text-3xl md:text-4xl lg:text-5xl hover:text-red-700 transition-colors inline-flex items-center gap-3"
+            className="text-white font-bold text-3xl md:text-4xl lg:text-5xl hover:text-red-900 transition-colors inline-flex items-center gap-3"
           >
             <Phone className="h-8 w-8 md:h-10 md:w-10" />
             01484 621575
@@ -75,16 +75,16 @@ export default function Footer({ social, badges }) {
 
         {/* Navigation Links */}
         <nav className="flex flex-wrap justify-center gap-6 md:gap-8 mb-8">
-          <a href="#" className="text-white hover:text-red-700 transition-colors text-sm md:text-base font-medium">
+          <a href="#" className="text-white hover:text-red-900 transition-colors text-sm md:text-base font-medium">
             HOME
           </a>
-          <a href="#menu" className="text-white hover:text-red-700 transition-colors text-sm md:text-base font-medium">
+          <a href="#menu" className="text-white hover:text-red-900 transition-colors text-sm md:text-base font-medium">
             MENU
           </a>
-          <a href="#offers" className="text-white hover:text-red-700 transition-colors text-sm md:text-base font-medium">
+          <a href="#offers" className="text-white hover:text-red-900 transition-colors text-sm md:text-base font-medium">
             OFFERS
           </a>
-          <a href="#contact" className="text-white hover:text-red-700 transition-colors text-sm md:text-base font-medium">
+          <a href="#contact" className="text-white hover:text-red-900 transition-colors text-sm md:text-base font-medium">
             CONTACT
           </a>
         </nav>

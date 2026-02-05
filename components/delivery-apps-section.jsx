@@ -23,30 +23,31 @@ export default function DeliveryAppsSection() {
                     SAVE UP TO 10% ON direct orders!
                 </p>
                 </div>
-                <div className="w-4/5 flex flex-row gap-4 justify-between">
+                <div className="flex flex-wrap gap-4 justify-start max-w-md">
                     <a
                         href="https://www.ubereats.com"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="group bg-black hover:bg-gray-900 text-white px-8 py-4 rounded-xl transition-all duration-300 hover:scale-105 border border-white/20 flex items-center gap-3"
+                        className="group bg-white rounded-2xl transition-all duration-300 hover:scale-105 p-3 shadow-lg"
                     >
-                        <svg className="w-8 h-8" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2z"/>
-                        <path d="M12 6L8 10h3v6h2v-6h3l-4-4z"/>
-                        </svg>
-                        <span className="font-bold text-lg">Uber Eats</span>
+                        <img width="80" height="80" src="https://img.icons8.com/ios-filled/100/uber-eats-app.png" alt="uber-eats-app" className="w-20 h-20"/>
                     </a>
 
                     <a
                         href="https://deliveroo.co.uk"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="group bg-[#00CCBC] hover:bg-[#00b3a5] text-white px-8 py-4 rounded-xl transition-all duration-300 hover:scale-105 flex items-center gap-3"
+                        className="group bg-white rounded-2xl transition-all duration-300 hover:scale-105 p-3 shadow-lg"
                     >
-                        <svg className="w-8 h-8" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M12 2L2 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-10-5zm0 2.18l8 3.6v9.22c0 4.44-3.07 8.62-8 9.8-4.93-1.18-8-5.36-8-9.8V7.78l8-3.6z"/>
-                        </svg>
-                        <span className="font-bold text-lg">Deliveroo</span>
+                        <img width="80" height="80" src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/external-deliveroo-a-british-online-food-delivery-company-industry-color-tal-revivo.png" alt="deliveroo" className="w-20 h-20"/>
+                    </a>
+                    <a
+                        href="https://just-eat.co.uk"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="group bg-white rounded-2xl transition-all duration-300 hover:scale-105 p-3 shadow-lg"
+                    >
+                        <img width="80" height="80" src="https://img.icons8.com/color/480/just-eat.png" alt="just-eat" className="w-20 h-20"/>
                     </a>
                 </div>
             </div>
@@ -112,7 +113,7 @@ export default function DeliveryAppsSection() {
       <div className="absolute bottom-0 left-0 right-0 w-full overflow-hidden leading-none rotate-180">
         <svg className="relative block w-full h-12" viewBox="0 0 1200 120" preserveAspectRatio="none">
           <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" fill="#000000"></path>
-        </svg>d
+        </svg>
       </div>
     </section>
   )
