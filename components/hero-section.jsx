@@ -47,7 +47,7 @@ export default function HeroSection({ data }) {
             </Button>
 
             {/* Contact Info */}
-            <div className="flex items-center gap-8 pt-6 border-t border-amber-500/20">
+            {/* <div className="flex items-center gap-8 pt-6 border-t border-amber-500/20">
               <div className="flex items-center gap-3">
                 <div className="w-12 h-12 rounded-full bg-amber-500/10 flex items-center justify-center">
                   <Phone className="w-5 h-5 text-amber-500" />
@@ -57,7 +57,7 @@ export default function HeroSection({ data }) {
                   <p className="text-amber-50 font-semibold">{data.phone}</p>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

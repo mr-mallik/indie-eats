@@ -12,7 +12,7 @@ export default function Footer({ social, badges }) {
           alt="Background" 
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-amber-500/90 via-orange-500/90 to-red-600/95"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-amber-500/90 via-orange-700/90 to-red-900/95"></div>
       </div>
 
       {/* Top Wavy Border */}
