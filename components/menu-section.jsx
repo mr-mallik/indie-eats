@@ -1,119 +1,144 @@
 'use client'
 
 import { useState } from 'react'
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
-import { ChevronDown, ChevronUp } from 'lucide-react'
-import { Badge } from '@/components/ui/badge'
+import { Button } from '@/components/ui/button'
 
 export default function MenuSection({ data }) {
-  const [openCategory, setOpenCategory] = useState(0)
+  const [activeTab, setActiveTab] = useState(0)
+  const [featuredItem, setFeaturedItem] = useState(data.categories[0]?.items[0])
 
-  const toggleCategory = (index) => {
-    setOpenCategory(openCategory === index ? -1 : index)
-  }
+  const currentCategory = data.categories[activeTab]
 
   return (
-    <section className="py-20 bg-black relative">
-      <div className="container mx-auto px-4">
+    <section className="py-32 bg-black relative">
+      <div className="container mx-auto px-6">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <Badge variant="outline" className="text-red-500 border-red-500/50 text-sm px-4 py-1 mb-4">
-            OUR MENU
-          </Badge>
-          <h2 className="font-playfair text-4xl md:text-5xl lg:text-6xl font-black text-white mb-4">
-            Explore Our <span className="bg-gradient-to-r from-red-500 to-orange-500 bg-clip-text text-transparent">Flavours</span>
+          <h2 className="font-playfair text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">
+            MENU
           </h2>
-          <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            Every dish crafted with passion and premium ingredients
-          </p>
         </div>
 
-        {/* Menu Categories */}
-        <div className="max-w-4xl mx-auto space-y-4">
+        {/* Category Tabs */}
+        <div className="flex justify-center gap-8 mb-16 flex-wrap">
           {data.categories.map((category, index) => (
-            <Card
+            <button
               key={index}
-              className={`bg-zinc-900/80 border-zinc-800 backdrop-blur-sm transition-all duration-300 ${
-                openCategory === index ? 'border-red-500/50 shadow-lg shadow-red-500/10' : ''
+              onClick={() => {
+                setActiveTab(index)
+                setFeaturedItem(category.items[0])
+              }}
+              className={`font-playfair text-lg md:text-xl transition-all duration-300 ${
+                activeTab === index
+                  ? 'text-white border-b-2 border-amber-500 pb-1'
+                  : 'text-gray-500 hover:text-gray-300'
               }`}
             >
-              <CardHeader
-                className="cursor-pointer hover:bg-zinc-800/50 transition-colors"
-                onClick={() => toggleCategory(index)}
-              >
-                <div className="flex items-center justify-between">
-                  <div className="flex items-center gap-4">
-                    {category.image && (
-                      <img
-                        src={category.image}
-                        alt={category.name}
-                        className="w-16 h-16 rounded-lg object-cover"
-                      />
-                    )}
-                    <div>
-                      <CardTitle className="font-playfair text-2xl font-bold text-white">
-                        {category.name}
-                      </CardTitle>
-                      {category.description && (
-                        <p className="text-sm text-gray-400 mt-1">{category.description}</p>
-                      )}
-                    </div>
-                  </div>
-                  <div className="text-red-500">
-                    {openCategory === index ? (
-                      <ChevronUp className="h-6 w-6" />
-                    ) : (
-                      <ChevronDown className="h-6 w-6" />
-                    )}
-                  </div>
-                </div>
-              </CardHeader>
-
-              {openCategory === index && (
-                <CardContent className="pt-0 pb-6">
-                  <div className="space-y-4 mt-4">
-                    {category.items.map((item, itemIndex) => (
-                      <div
-                        key={itemIndex}
-                        className="flex justify-between items-start p-4 rounded-lg bg-zinc-800/50 hover:bg-zinc-800 transition-colors border border-zinc-700/50"
-                      >
-                        {item.image && (
-                          <img
-                            src={item.image}
-                            alt={item.name}
-                            className="w-20 h-20 rounded-lg object-cover mr-4"
-                          />
-                        )}
-                        <div className="flex-1">
-                          <h4 className="font-playfair text-lg font-semibold text-white mb-1">
-                            {item.name}
-                          </h4>
-                          {item.description && (
-                            <p className="text-sm text-gray-400 mb-2">{item.description}</p>
-                          )}
-                          {item.size && (
-                            <Badge variant="outline" className="text-xs text-gray-400 border-gray-600">
-                              {item.size}
-                            </Badge>
-                          )}
-                        </div>
-                        <div className="text-right ml-4">
-                          <p className="text-xl font-bold text-red-500">
-                            £{item.price.toFixed(2)}
-                          </p>
-                          {item.size && (
-                            <p className="text-xs text-gray-500">from</p>
-                          )}
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </CardContent>
-              )}
-            </Card>
+              {category.name}
+            </button>
           ))}
         </div>
+
+        {/* Menu Content */}
+        <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12">
+          {/* Featured Daily Dish */}
+          <div className="relative group">
+            <div className="relative h-[600px] lg:h-[700px] rounded-3xl overflow-hidden shadow-2xl">
+              <img
+                src={currentCategory.image}
+                alt={currentCategory.name}
+                className="w-full h-full object-cover scale-105"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent" />
+              
+              {/* Featured Item Info */}
+              <div className="absolute bottom-0 left-0 right-0 p-8">
+                <div className="inline-block px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full mb-4 border border-white/20">
+                  <p className="text-white/80 text-sm uppercase tracking-wider">Daily Dish</p>
+                </div>
+                <h3 className="font-playfair text-3xl md:text-4xl font-bold text-white mb-3">
+                  {featuredItem?.name || currentCategory.items[0]?.name}
+                </h3>
+                <p className="text-gray-300 text-sm mb-6 max-w-md">
+                  {featuredItem?.description || currentCategory.description}
+                </p>
+                <div className="flex items-center gap-4">
+                  <span className="text-amber-500 font-bold text-2xl">
+                    £{(featuredItem?.price || currentCategory.items[0]?.price)?.toFixed(2)}
+                  </span>
+                  {featuredItem?.size && (
+                    <span className="text-gray-400 text-sm">{featuredItem.size}</span>
+                  )}
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Menu Items List */}
+          <div className="relative">
+            <div className="max-h-[500px] overflow-y-auto pr-4 custom-scrollbar">
+              <div className="space-y-6">
+                {currentCategory.items.map((item, index) => (
+                  <div
+                    key={index}
+                    onClick={() => setFeaturedItem(item)}
+                    className="cursor-pointer group/item hover:bg-white/5 p-4 rounded-lg transition-all duration-300"
+                  >
+                    <div className="flex justify-between items-start gap-4">
+                      <div className="flex-1">
+                        <h4 className="font-playfair text-xl font-semibold text-white mb-2 group-hover/item:text-amber-500 transition-colors">
+                          {item.name}
+                        </h4>
+                        <p className="text-gray-400 text-sm leading-relaxed mb-2">
+                          {item.description}
+                        </p>
+                        {item.size && (
+                          <p className="text-gray-500 text-xs">{item.size}</p>
+                        )}
+                      </div>
+                      
+                      {/* Dotted Line */}
+                      <div className="flex-1 border-b-2 border-dotted border-gray-700 mb-6 mx-4"></div>
+                      
+                      <div className="text-right">
+                        <p className="text-amber-500 font-bold text-xl">
+                          ${item.price.toFixed(2)}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* See All Button */}
+            <div className="text-center mt-8">
+              <Button
+                className="bg-white text-black hover:bg-gray-200 px-12 py-6 rounded-full font-semibold text-base transition-all duration-300 hover:scale-105"
+              >
+                See All
+              </Button>
+            </div>
+          </div>
+        </div>
       </div>
+
+      <style jsx global>{`
+        .custom-scrollbar::-webkit-scrollbar {
+          width: 6px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+          background: rgba(255, 255, 255, 0.05);
+          border-radius: 10px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+          background: rgba(251, 191, 36, 0.5);
+          border-radius: 10px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+          background: rgba(251, 191, 36, 0.7);
+        }
+      `}</style>
     </section>
   )
 }

@@ -28,7 +28,7 @@
       {
         "name": "Burgers",
         "description": "Served with chips",
-        "image": "https://images.pexels.com/photos/1108117/pexels-photo-1108117.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "image": "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=1200",
         "items": [
           {
             "name": "Chicken Burger",
@@ -59,7 +59,7 @@
       {
         "name": "Wraps",
         "description": "Fresh wraps packed with flavour",
-        "image": "https://images.pexels.com/photos/17200357/pexels-photo-17200357.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "image": "https://images.pexels.com/photos/2474658/pexels-photo-2474658.jpeg?auto=compress&cs=tinysrgb&w=1200",
         "items": [
           {
             "name": "Chicken Wrap",
@@ -84,7 +84,7 @@
       {
         "name": "Pizza",
         "description": "Stone-baked perfection",
-        "image": "https://images.pexels.com/photos/33592985/pexels-photo-33592985.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "image": "https://images.pexels.com/photos/2147491/pexels-photo-2147491.jpeg?auto=compress&cs=tinysrgb&w=1200",
         "items": [
           {
             "name": "Margherita Pizza",
@@ -140,7 +140,7 @@
       {
         "name": "Loaded Box",
         "description": "Boxes packed with flavour",
-        "image": "https://images.pexels.com/photos/34138804/pexels-photo-34138804.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "image": "https://images.pexels.com/photos/60616/fried-chicken-chicken-fried-crunchy-60616.jpeg?auto=compress&cs=tinysrgb&w=1200",
         "items": [
           {
             "name": "Chicken Loaded Box",
@@ -159,7 +159,7 @@
       {
         "name": "Fries",
         "description": "Crispy golden fries",
-        "image": "https://images.pexels.com/photos/1893556/pexels-photo-1893556.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "image": "https://images.pexels.com/photos/1583884/pexels-photo-1583884.jpeg?auto=compress&cs=tinysrgb&w=1200",
         "items": [
           {
             "name": "Regular Fries",
@@ -184,7 +184,7 @@
       {
         "name": "Starters",
         "description": "Perfect to start your meal",
-        "image": "https://images.pexels.com/photos/24182618/pexels-photo-24182618.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "image": "https://images.pexels.com/photos/9980355/pexels-photo-9980355.jpeg?auto=compress&cs=tinysrgb&w=1200",
         "items": [
           {
             "name": "Chicken Wings",
@@ -221,7 +221,7 @@
       {
         "name": "Milkshakes",
         "description": "Thick and creamy",
-        "image": "https://images.pexels.com/photos/2559025/pexels-photo-2559025.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "image": "https://images.pexels.com/photos/1841160/pexels-photo-1841160.jpeg?auto=compress&cs=tinysrgb&w=1200",
         "items": [
           {
             "name": "Vanilla Milkshake",
@@ -270,7 +270,7 @@
       {
         "name": "Cheesecake",
         "description": "Served per slice",
-        "image": "https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "image": "https://images.pexels.com/photos/6880219/pexels-photo-6880219.jpeg?auto=compress&cs=tinysrgb&w=1200",
         "items": [
           {
             "name": "Oreo Cheesecake",
@@ -313,7 +313,7 @@
       {
         "name": "Brownie",
         "description": "Served per slice",
-        "image": "https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "image": "https://images.pexels.com/photos/3026804/pexels-photo-3026804.jpeg?auto=compress&cs=tinysrgb&w=1200",
         "items": [
           {
             "name": "Chocolate Brownie",
@@ -356,7 +356,7 @@
       {
         "name": "Indie Special Desserts",
         "description": "Signature sweet treats",
-        "image": "https://images.pexels.com/photos/7786846/pexels-photo-7786846.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "image": "https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=1200",
         "items": [
           {
             "name": "Cookie Dough",
@@ -375,7 +375,7 @@
       {
         "name": "Meal Deals",
         "description": "With chips and drinks",
-        "image": "https://images.pexels.com/photos/2271107/pexels-photo-2271107.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "image": "https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg?auto=compress&cs=tinysrgb&w=1200",
         "items": [
           {
             "name": "Meal Deal 1",
@@ -400,7 +400,7 @@
       {
         "name": "Cold Drinks",
         "description": "Refreshing beverages",
-        "image": "https://images.pexels.com/photos/11941939/pexels-photo-11941939.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "image": "https://images.pexels.com/photos/50593/coca-cola-cold-drink-soft-drink-coke-50593.jpeg?auto=compress&cs=tinysrgb&w=1200",
         "items": [
           {
             "name": "Coca-Cola",
@@ -449,7 +449,7 @@
       {
         "name": "Dips",
         "description": "Indie Special Sauce",
-        "image": "https://images.pexels.com/photos/4958522/pexels-photo-4958522.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "image": "https://images.pexels.com/photos/1893556/pexels-photo-1893556.jpeg?auto=compress&cs=tinysrgb&w=1200",
         "items": [
           {
             "name": "Indie Special Sauce",
