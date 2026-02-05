@@ -50,7 +50,7 @@ export default function Footer({ social, badges }) {
 
         {/* Brand */}
         <div className="text-center mb-6">
-          <h3 className="text-3xl font-black text-white mb-2">
+          <h3 className="font-playfair text-3xl font-black text-white mb-2">
             Indie <span className="text-red-500">Eats</span>
           </h3>
           <p className="text-gray-500 text-sm">

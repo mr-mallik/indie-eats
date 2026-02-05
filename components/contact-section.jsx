@@ -14,7 +14,7 @@ export default function ContactSection({ data }) {
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-black text-white mb-4">
+          <h2 className="font-playfair text-4xl md:text-5xl lg:text-6xl font-black text-white mb-4">
             Ready to <span className="bg-gradient-to-r from-red-500 to-yellow-500 bg-clip-text text-transparent">Order?</span>
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto mb-8">
@@ -38,7 +38,7 @@ export default function ContactSection({ data }) {
               <div className="inline-flex items-center justify-center w-16 h-16 bg-red-500/20 rounded-full mb-4">
                 <Phone className="h-8 w-8 text-red-500" />
               </div>
-              <h3 className="text-xl font-bold text-white mb-2">Phone</h3>
+              <h3 className="font-playfair text-xl font-bold text-white mb-2">Phone</h3>
               <p className="text-gray-400">{data.phone}</p>
             </CardContent>
           </Card>
@@ -49,7 +49,7 @@ export default function ContactSection({ data }) {
               <div className="inline-flex items-center justify-center w-16 h-16 bg-red-500/20 rounded-full mb-4">
                 <MapPin className="h-8 w-8 text-red-500" />
               </div>
-              <h3 className="text-xl font-bold text-white mb-2">Address</h3>
+              <h3 className="font-playfair text-xl font-bold text-white mb-2">Address</h3>
               <p className="text-gray-400">{data.address}</p>
             </CardContent>
           </Card>
@@ -60,7 +60,7 @@ export default function ContactSection({ data }) {
               <div className="inline-flex items-center justify-center w-16 h-16 bg-red-500/20 rounded-full mb-4">
                 <Clock className="h-8 w-8 text-red-500" />
               </div>
-              <h3 className="text-xl font-bold text-white mb-2">Opening Hours</h3>
+              <h3 className="font-playfair text-xl font-bold text-white mb-2">Opening Hours</h3>
               <div className="text-gray-400 text-sm space-y-1">
                 <p>Mon-Sat: {data.hours.monday}</p>
                 <p>Sun: {data.hours.sunday}</p>
