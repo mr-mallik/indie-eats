@@ -21,22 +21,30 @@ export default function MenuSection({ data }) {
 
         {/* Category Tabs */}
         <div className="flex justify-center gap-8 mb-16 flex-wrap">
-          {data.categories.map((category, index) => (
-            <button
-              key={index}
-              onClick={() => {
-                setActiveTab(index)
-                setFeaturedItem(category.items[0])
-              }}
-              className={`font-playfair text-lg md:text-xl transition-all duration-300 ${
-                activeTab === index
-                  ? 'text-white border-b-2 border-amber-500 pb-1'
-                  : 'text-gray-500 hover:text-gray-300'
-              }`}
-            >
-              {category.name}
-            </button>
-          ))}
+          {data.categories.map((category, index) => {
+            const isNew = ['Dosas', 'Rice Box', 'Chaats'].includes(category.name)
+            return (
+              <button
+                key={index}
+                onClick={() => {
+                  setActiveTab(index)
+                  setFeaturedItem(category.items[0])
+                }}
+                className={`relative font-playfair text-lg md:text-xl transition-all duration-300 ${
+                  activeTab === index
+                    ? 'text-white border-b-2 border-amber-500 pb-1'
+                    : 'text-gray-500 hover:text-gray-300'
+                }`}
+              >
+                {category.name}
+                {isNew && (
+                  <span className="absolute -top-2 -right-8 bg-gradient-to-r from-amber-500 to-orange-500 text-black text-[10px] font-bold px-1 py-0.4 rounded-full">
+                    NEW
+                  </span>
+                )}
+              </button>
+            )
+          })}
         </div>
 
         {/* Menu Content */}

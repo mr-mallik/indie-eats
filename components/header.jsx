@@ -1,15 +1,31 @@
 'use client'
 
+import { useState, useEffect } from 'react'
 import { Phone } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 
 export default function Header({ phone }) {
+  const [isScrolled, setIsScrolled] = useState(false)
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 20)
+    }
+
+    window.addEventListener('scroll', handleScroll)
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
+
   const handleCall = () => {
     window.location.href = `tel:${phone}`
   }
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-black/90 backdrop-blur-md border-b border-zinc-800">
+    <header className={`fixed top-0 left-0 right-0 z-50 border-b transition-all duration-300 ${
+      isScrolled 
+        ? 'bg-black/90 backdrop-blur-md border-zinc-800' 
+        : 'bg-transparent border-transparent'
+    }`}>
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center">
