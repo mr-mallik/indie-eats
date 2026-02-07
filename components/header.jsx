@@ -28,11 +28,11 @@ export default function Header({ phone }) {
     }`}>
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         {/* Logo */}
-        <div className="flex items-center">
+        <div className="flex items-center border rounded-md p-1">
           <img 
-            src="https://customer-assets.emergentagent.com/job_25d1f7f2-af75-4451-807c-20d347c6d6af/artifacts/3f735dlj_indie-eats.png" 
+            src="/images/indie-eats.png"
             alt="Indie Eats" 
-            className="h-12 md:h-16"
+            className="h-12 md:h-16 rounded-[5px]"
           />
         </div>
 

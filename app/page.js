@@ -5,6 +5,7 @@ import Header from '@/components/header'
 import HeroSection from '@/components/hero-section'
 import OffersSection from '@/components/offers-section'
 import MenuSection from '@/components/menu-section'
+import TestimonialSection from '@/components/testimonial-section'
 import DeliveryAppsSection from '@/components/delivery-apps-section'
 import ContactSection from '@/components/contact-section'
 import Footer from '@/components/footer'
@@ -51,7 +52,8 @@ export default function Home() {
       <HeroSection data={content.hero} />
       <OffersSection data={content.offers} />
       <MenuSection data={content.menu} />
-      <DeliveryAppsSection />
+      <TestimonialSection data={content.testimonials} />
+      <DeliveryAppsSection data={content.deliveryApps} />
       <ContactSection data={content.contact} />
       <Footer social={content.social} badges={content.badges} />
     </main>

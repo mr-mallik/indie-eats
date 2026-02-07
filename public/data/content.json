@@ -626,5 +626,84 @@
     "100% Halal",
     "Fresh Ingredients",
     "Late Night Service"
-  ]
+  ],
+  "testimonials": {
+    "averageRating": 5.0,
+    "totalReviews": 247,
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Sarah Thompson",
+        "initials": "ST",
+        "rating": 5,
+        "date": "2 weeks ago",
+        "text": "Absolutely amazing food! The burgers are perfectly cooked and the loaded fries are incredible. Service was quick and friendly. Will definitely order again!"
+      },
+      {
+        "id": 2,
+        "name": "Mohammed Ali",
+        "initials": "MA",
+        "rating": 5,
+        "date": "1 month ago",
+        "text": "Best halal food in Huddersfield! The quality is consistently excellent. Love the late night service - perfect for those midnight cravings. Highly recommend!"
+      },
+      {
+        "id": 3,
+        "name": "Emily Roberts",
+        "initials": "ER",
+        "rating": 5,
+        "date": "3 weeks ago",
+        "text": "The pizza is stone-baked to perfection and the wings are so crispy! Great value for money especially when ordering by phone. Customer service is top notch."
+      },
+      {
+        "id": 4,
+        "name": "James Wilson",
+        "initials": "JW",
+        "rating": 5,
+        "date": "2 months ago",
+        "text": "Outstanding! The new dosa collection is a game changer. Fresh ingredients, bold flavours, and generous portions. This is now my go-to takeaway spot."
+      },
+      {
+        "id": 5,
+        "name": "Fatima Khan",
+        "initials": "FK",
+        "rating": 5,
+        "date": "1 week ago",
+        "text": "Love the variety on the menu! Everything tastes fresh and delicious. The 10% discount for phone orders is a great bonus. Fast delivery too!"
+      },
+      {
+        "id": 6,
+        "name": "David Brown",
+        "initials": "DB",
+        "rating": 5,
+        "date": "3 weeks ago",
+        "text": "Fantastic food and service! The Indie Special Burger lives up to its name. Perfectly seasoned, great toppings, and the chips are always crispy. 5 stars!"
+      }
+    ]
+  },
+  "deliveryApps": {
+    "apps": [
+      {
+        "name": "Uber Eats",
+        "url": "https://www.ubereats.com/store/indie-eats/ZWI0dk03Q_6bPoTmAUu3KQ",
+        "icon": "https://img.icons8.com/ios-filled/100/uber-eats-app.png"
+      },
+      {
+        "name": "Deliveroo",
+        "url": "https://deliveroo.co.uk/menu/leeds/huddersfield/indie-eats?srsltid=AfmBOoowHRzmO93quzxiyHZKRakhOdawUGa7i_BCDJZs2Q3bhwprd7JN",
+        "icon": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/external-deliveroo-a-british-online-food-delivery-company-industry-color-tal-revivo.png"
+      },
+      {
+        "name": "Just Eat",
+        "url": "https://www.just-eat.co.uk/restaurants-indie-eats-newsome/menu#pre-order",
+        "icon": "https://img.icons8.com/color/480/just-eat.png"
+      }
+    ],
+    "decorativeImages": {
+      "burger1": "https://pngimg.com/d/burger_sandwich_PNG4135.png",
+      "burger2": "https://pngimg.com/d/burger_sandwich_PNG4135.png",
+      "pizza": "https://pngimg.com/d/pizza_PNG44095.png",
+      "fries": "https://pngimg.com/uploads/fries/fries_PNG60.png"
+    }
+  }
 }

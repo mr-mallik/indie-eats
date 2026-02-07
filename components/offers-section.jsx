@@ -19,7 +19,7 @@ export default function OffersSection({ data }) {
         {/* Section Header */}
         <div className="text-center mb-20">
           <h2 className="font-playfair text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">
-             Special <span className="text-amber-500">Offers</span>
+             Special <span className="bg-gradient-to-r from-amber-500 to-orange-500 bg-clip-text text-transparent">Offers</span>
           </h2>
         </div>
 
