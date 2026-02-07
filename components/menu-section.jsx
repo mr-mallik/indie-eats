@@ -51,7 +51,7 @@ export default function MenuSection({ data }) {
         <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12">
           {/* Featured Daily Dish */}
           <div className="relative group">
-            <div className="relative h-[600px] lg:h-[700px] rounded-3xl overflow-hidden shadow-2xl">
+            <div className="relative h-[600px] lg:h-[550px] rounded-3xl overflow-hidden shadow-2xl">
               <img
                 src={currentCategory.image}
                 alt={currentCategory.name}
