@@ -15,7 +15,7 @@ export default function ContactSection({ data }) {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="font-playfair text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">
-            Ready to <span className="text-amber-500">Order?</span>
+            Ready to <span className="bg-gradient-to-r from-amber-500 to-orange-500 bg-clip-text text-transparent">Order?</span>
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto mb-8">
             Call us now and get 10% off your order

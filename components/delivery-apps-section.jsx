@@ -1,6 +1,6 @@
 'use client'
 
-export default function DeliveryAppsSection() {
+export default function DeliveryAppsSection({ data }) {
   return (
     <section className="py-24 bg-gradient-to-b from-[#1a0f0a] to-black relative overflow-hidden">
       {/* Top Wavy Border */}
@@ -16,39 +16,25 @@ export default function DeliveryAppsSection() {
             {/* Left Side - App Buttons */}
             <div className="flex flex-col gap-6 justify-center">
                 <div className="mb-12">
-                <h2 className="font-playfair text-4xl md:text-5xl lg:text-6xl font-bold text-amber-500 mb-4">
-                    ORDER ON DEMAND
+                <h2 className="font-playfair text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">
+                    Order On <br/><span className="bg-gradient-to-r from-amber-500 to-orange-500 bg-clip-text text-transparent">Demand</span>
                 </h2>
                 <p className="text-white text-xl md:text-2xl mb-2">
-                    SAVE UP TO 10% ON direct orders!
+                  SAVE UP TO 10% on direct orders!
                 </p>
                 </div>
                 <div className="flex flex-wrap gap-4 justify-start max-w-md">
-                    <a
-                        href="https://www.ubereats.com"
+                    {data.apps.map((app, index) => (
+                      <a
+                        key={index}
+                        href={app.url}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="group bg-white rounded-2xl transition-all duration-300 hover:scale-105 p-3 shadow-lg"
-                    >
-                        <img width="80" height="80" src="https://img.icons8.com/ios-filled/100/uber-eats-app.png" alt="uber-eats-app" className="w-20 h-20"/>
-                    </a>
-
-                    <a
-                        href="https://deliveroo.co.uk"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="group bg-white rounded-2xl transition-all duration-300 hover:scale-105 p-3 shadow-lg"
-                    >
-                        <img width="80" height="80" src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/external-deliveroo-a-british-online-food-delivery-company-industry-color-tal-revivo.png" alt="deliveroo" className="w-20 h-20"/>
-                    </a>
-                    <a
-                        href="https://just-eat.co.uk"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="group bg-white rounded-2xl transition-all duration-300 hover:scale-105 p-3 shadow-lg"
-                    >
-                        <img width="80" height="80" src="https://img.icons8.com/color/480/just-eat.png" alt="just-eat" className="w-20 h-20"/>
-                    </a>
+                      >
+                        <img width="80" height="80" src={app.icon} alt={app.name} className="w-20 h-20"/>
+                      </a>
+                    ))}
                 </div>
             </div>
 
@@ -56,20 +42,20 @@ export default function DeliveryAppsSection() {
             <div className="relative flex justify-center items-center min-h-[500px]">
               {/* Food Images around phone */}
               <img
-                src="https://pngimg.com/d/burger_sandwich_PNG4135.png"
-                alt="Tomatoes"
+                src={data.decorativeImages.burger1}
+                alt="Burger"
                 className="absolute top-0 left-0 w-32 z-10"
               />
               
               <img
-                src="https://pngimg.com/d/burger_sandwich_PNG4135.png"
-                alt="Fries"
+                src={data.decorativeImages.burger2}
+                alt="Burger"
                 className="absolute bottom-0 right-0 w-40 z-10"
               />
               
               <img
-                src="https://pngimg.com/d/pizza_PNG44095.png"
-                alt="Burger"
+                src={data.decorativeImages.pizza}
+                alt="Pizza"
                 className="absolute bottom-20 left-10 w-48 z-10"
               />
 
@@ -87,9 +73,13 @@ export default function DeliveryAppsSection() {
                     
                     {/* App Icons Mockup */}
                     <div className="absolute bottom-6 left-0 right-0 flex justify-center gap-3">
-                      <div className="w-12 h-12 bg-white/30 backdrop-blur-sm rounded-xl"></div>
-                      <div className="w-12 h-12 bg-white/30 backdrop-blur-sm rounded-xl"></div>
-                      <div className="w-12 h-12 bg-white/30 backdrop-blur-sm rounded-xl"></div>
+                      {data.apps.map((app, index) => (
+                        <div key={index} className="w-12 h-12 bg-white/30 backdrop-blur-sm rounded-xl">
+                          <a href={app.url} target="_blank" rel="noopener noreferrer" className="w-full h-full flex items-center justify-center">
+                            <img width="80" height="80" src={app.icon} alt={app.name} className={index === 1 ? "w-9 h-9" : "w-10 h-10"}/>
+                          </a>
+                        </div>
+                      ))}
                     </div>
                   </div>
                   
@@ -98,11 +88,11 @@ export default function DeliveryAppsSection() {
                 </div>
               </div>
 
-              {/* Coca-Cola Can */}
+              {/* Fries */}
               <img
-                src="https://pngimg.com/d/pizza_PNG44095.png"
-                alt="Coca Cola"
-                className="absolute top-20 right-0 w-24 z-10"
+                src={data.decorativeImages.fries}
+                alt="Fries"
+                className="absolute top-20 right-0 w-32 z-10"
               />
             </div>
           </div>

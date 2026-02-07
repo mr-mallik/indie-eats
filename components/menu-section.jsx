@@ -15,7 +15,7 @@ export default function MenuSection({ data }) {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="font-playfair text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">
-            MENU
+            Our <span className="bg-gradient-to-r from-amber-500 to-orange-500 bg-clip-text text-transparent">Menu</span>
           </h2>
         </div>
 
@@ -120,13 +120,13 @@ export default function MenuSection({ data }) {
             </div>
 
             {/* See All Button */}
-            <div className="text-center mt-8">
+            {/* <div className="text-center mt-8">
               <Button
                 className="bg-white text-black hover:bg-gray-200 px-12 py-6 rounded-full font-semibold text-base transition-all duration-300 hover:scale-105"
               >
                 See All
               </Button>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
